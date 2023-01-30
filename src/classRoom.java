@@ -12,4 +12,8 @@ class classRoom {
         this.name_of_class = name_of_class;
         this.teacher_name = teacher_name;
     }
+    classRoom(String name_of_class) {
+        this.name_of_class = name_of_class;
+    }
+
 }
