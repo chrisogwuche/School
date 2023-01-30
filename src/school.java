@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 class school extends student implements displays{
-    List<classRoom> school_teachers = new ArrayList<>();
+    List<classRoom> school_classes = new ArrayList<>();
     List<student> school_students = new ArrayList<>();
 
 
@@ -16,13 +16,13 @@ class school extends student implements displays{
         return school_students;
     }
     public void add_class_details(String name_of_class,String teacher_name, int no_of_students){
-        school_teachers.add(new classRoom(name_of_class,teacher_name,no_of_students));
+        school_classes.add(new classRoom(name_of_class,teacher_name,no_of_students));
     }
     public List<classRoom> getClassList(){
-        for(classRoom a : school_teachers) {
+        for(classRoom a : school_classes) {
             System.out.println(a.name_of_class+ " "+a.teacher_name+ " "+a.no_of_students);
         }
-        return school_teachers;
+        return school_classes;
     }
     public void get_Students_in_class(String class_name){
         for(student a: school_students){
