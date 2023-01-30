@@ -3,7 +3,7 @@ import java.util.List;
 
 class school extends student implements displays{
     List<classRoom> school_teachers = new ArrayList<>();
-    List<student> school_students = new ArrayList();
+    List<student> school_students = new ArrayList<>();
 
 
     public void add_student_details(String student_name,int admission_number,int age,String class_name) {

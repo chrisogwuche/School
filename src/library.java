@@ -1,13 +1,10 @@
-import java.sql.Timestamp;
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Date;
 import java.util.List;
 public class library extends school implements lib {
     private int book_id;
     private String book_name;
-    List<student> Signin_LibraryRegister = new ArrayList();
-    List<student> Signout_LibraryRegister = new ArrayList();
+    List<student> Signin_LibraryRegister = new ArrayList<>();
+    List<student> Signout_LibraryRegister = new ArrayList<>();
 
 
     public void signin(int admission_number){
