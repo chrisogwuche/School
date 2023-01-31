@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-class school extends student implements displays{
+class school extends student implements school_interface {
     List<classRoom> school_classes = new ArrayList<>();
     List<student> school_students = new ArrayList<>();
 

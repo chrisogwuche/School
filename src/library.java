@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 import java.util.List;
-public class library extends school implements lib {
+public class library extends school implements lib_interface {
     private int book_id;
     private String book_name;
     List<student> Signin_LibraryRegister = new ArrayList<>();
@@ -26,8 +26,6 @@ public class library extends school implements lib {
         for(student a: Signin_LibraryRegister){
             System.out.println(a.student_name+ " "+a.admission_number+ " "+a.class_name+" "+a.today);
         }
-//        System.out.println(Signin_LibraryRegister);
-//        System.out.println(Signout_LibraryRegister);
     }
 
     public void request_Book() {

@@ -7,7 +7,7 @@ public class Main {
         lib.getClassList();
 
         System.out.println("\n");
-        
+
         lib.add_student_details("chris Ogwuche", 212, 23, "primary one");
         lib.add_student_details("james", 234, 12, "primary Two");
         lib.add_student_details("mike", 767, 7, "primary Three");
